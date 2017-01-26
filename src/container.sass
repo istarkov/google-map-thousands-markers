@@ -1,0 +1,18 @@
+.component
+  display: flex
+  flex: 1
+
+.content
+  flex: 6
+  position: relative
+  display: flex
+
+.contentAside
+  flex: 1
+  min-width: 80px
+
+@media only screen and (max-width: 700px)
+  .content
+    flex: 10
+  .contentAside
+    min-width: 20px

@@ -1,0 +1,48 @@
+@import 'vars'
+@import 'markersZIndexes'
+
+.marker
+  // it's better to use margin property instead of align-items, justify-content
+  // for children aligning, see margin: auto at .content
+  // so children can select it's own aligning strategy
+  position: absolute
+  z-index: $baseMarkerZIndex
+  top: -$markerOriginY
+  left: -$markerOriginX
+  display: flex
+  width: $markerSize
+  height: $markerSize
+  margin: 0
+  padding: 0
+  transform-origin: $markerOriginX $markerOriginY
+  text-decoration: inherit
+  border: $markerBorderWidth solid #fff
+  border-radius: 50%
+  background-color: #00b92a
+  box-shadow: 0 0 3px $markerShadowColor
+  speak: none
+
+
+.hover
+  z-index: $baseMarkerHoveredZIndex
+
+
+.isNew
+  z-index: $baseMarkerNewZIndex
+
+// used for string and number content, react elements must provide their own style
+.content
+  font-size: 11px
+  line-height: 11px
+  margin: auto
+  color: white
+
+// for markers with biased origin sometime useful to add test point at debug time
+.test
+  position: absolute
+  top: -1px
+  left: -1px
+
+  width: 2px
+  height: 2px
+  background-color: yellow

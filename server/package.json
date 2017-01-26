@@ -1,0 +1,12 @@
+{
+  "name": "example-server",
+  "version": "1.0.0",
+  "description": "to make it independent of node_modules at upper level, to reduce docker image size ",
+  "main": "index.js",
+  "author": "istarkov",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.14.0"
+  }
+}
