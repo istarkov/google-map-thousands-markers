@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
   throw new Error('Production builds must have NODE_ENV=production.');
 }
 
-const publicPath = process.env.BUILD ? '/pbl/' : '/';
+const publicPath = process.env.BUILD ? '/google-map-thousands-markers/' : '/';
 
 const envObj = Object.keys(process.env)
   .reduce((r, k) => ({
@@ -133,7 +133,7 @@ export default {
           [
             'css-loader?modules&importLoaders=2&localIdentName=[name]__[local]', // [hash:5]
             'postcss-loader',
-            'sass-loader?precision=10&indentedSyntax=sass',
+            `sass-loader?precision=10&indentedSyntax=sass&includePaths[]=${paths.appStylesIncludes}`,
           ],
         ),
         include: [

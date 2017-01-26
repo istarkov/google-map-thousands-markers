@@ -9,7 +9,7 @@
     "clean": "rimraf build",
     "build": "yarn run clean;NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --progress",
     "size": "NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --json | webpack-bundle-size-analyzer",
-    "makelinks": "echo '' > ./docs/.nojekyll;cd ./docs;ln -s index.html build.html;ln -s index.html err.html",
+    "makelinks": "echo '' > ./docs/.nojekyll;cd ./docs;ln -s index.html about.html",
     "pages": "rimraf ./docs;BUILD=./docs NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --progress;yarn run makelinks",
     "lint": "eslint src"
   },
