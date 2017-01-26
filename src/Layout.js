@@ -47,8 +47,13 @@ const layoutComponent = ({
     </div>
     <div className={theme.footer}>
       <Container theme={theme} themeNamespace={'footer'}>
-        <span className={theme.team}>created by</span> &nbsp;
-        <a className={theme.link} href={'https://github.com/istarkov'}>istarkov</a>
+        <div className={theme.footerLeft}>
+          <Link className={theme.link} to={'/about'}>About</Link>
+        </div>
+        <div className={theme.footerRight}>
+          <span className={theme.team}>created by</span> &nbsp;
+          <a className={theme.link} href={'https://github.com/istarkov'}>istarkov</a>
+        </div>
       </Container>
     </div>
   </div>

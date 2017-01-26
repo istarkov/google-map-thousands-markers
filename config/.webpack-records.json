@@ -29,6 +29,21 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 3,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/lodash/lodash.js": 1,
+          "node_modules/webpack/buildin/module.js": 2,
+          "node_modules/html-webpack-plugin/lib/loader.js!config/template/index.html": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
   "extract-text-webpack-plugin": [
@@ -255,9 +270,121 @@
         "byName": {},
         "byBlocks": {}
       }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=1&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/normalize.css/normalize.css": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/main.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/container.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/content.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/controls/Markers/BaseMarker.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/controls/Markers/TooltipMarker.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/map.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
+    },
+    {
+      "nextFreeModuleId": 2,
+      "modules": {
+        "byIdentifier": {
+          "node_modules/css-loader/lib/css-base.js": 1,
+          "node_modules/css-loader/index.js?modules&importLoaders=2&localIdentName=[name]__[local]!node_modules/postcss-loader/index.js!node_modules/sass-loader/index.js?precision=10&indentedSyntax=sass&includePaths[]=/Users/ice/ext/examples/map-markers:/Users/ice/ext/examples/map-markers/node_modules:/Users/ice/ext/examples/map-markers/assets/sass!src/layout.sass": 0
+        }
+      },
+      "nextFreeChunkId": 1,
+      "chunks": {
+        "byName": {},
+        "byBlocks": {}
+      }
     }
   ],
-  "nextFreeModuleId": 909,
+  "nextFreeModuleId": 910,
   "modules": {
     "byIdentifier": {
       "node_modules/rxjs/Observable.js": 1,
@@ -428,7 +555,7 @@
       "node_modules/rxjs/operator/zip.js": 166,
       "node_modules/rxjs/util/isFunction.js": 167,
       "node_modules/rxjs/util/isNumeric.js": 168,
-      "node_modules/symbol-observable/index.js": 908,
+      "node_modules/symbol-observable/index.js": 909,
       "node_modules/webpack/buildin/module.js": 170,
       "node_modules/babel-loader/lib/index.js?{\"babelrc\":false,\"presets\":[\"/Users/ice/ext/examples/map-markers/node_modules/babel-preset-es2015/lib/index.js\",\"/Users/ice/ext/examples/map-markers/node_modules/babel-preset-es2016/lib/index.js\",\"/Users/ice/ext/examples/map-markers/node_modules/babel-preset-react/lib/index.js\",\"/Users/ice/ext/examples/map-markers/node_modules/babel-preset-stage-0/lib/index.js\"],\"plugins\":[\"/Users/ice/ext/examples/map-markers/node_modules/markdown-in-js/babel.js\",\"/Users/ice/ext/examples/map-markers/node_modules/babel-plugin-transform-runtime/lib/index.js\"]}!src/controls/Map/utils.js": 171,
       "node_modules/babel-runtime/helpers/slicedToArray.js": 172,
