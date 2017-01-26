@@ -12,7 +12,7 @@ if (process.env.NODE_ENV !== 'production') {
   throw new Error('Production builds must have NODE_ENV=production.');
 }
 
-const publicPath = process.env.BUILD ? '/google-map-thousands-markers/' : '/';
+const publicPath = process.env.BUILD ? `/${paths.githubProject}/` : '/';
 
 const envObj = Object.keys(process.env)
   .reduce((r, k) => ({
@@ -123,6 +123,7 @@ export default {
         query: babelConfig,
         include: [
           paths.appSrc,
+          __dirname,
         ],
       },
 

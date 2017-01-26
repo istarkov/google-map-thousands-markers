@@ -75,6 +75,7 @@ export default {
         query: babelConfig,
         include: [
           paths.appSrc,
+          __dirname,
         ],
       },
       {

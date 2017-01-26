@@ -14,4 +14,5 @@ export default {
     path.resolve(__dirname, '../node_modules'),
     path.resolve(__dirname, '../assets/sass'),
   ].join(':'),
+  githubProject: 'google-map-thousands-markers',
 };
