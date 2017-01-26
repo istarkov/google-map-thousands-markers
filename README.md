@@ -35,3 +35,7 @@ Also you can use this project as an example how to draw anything over the [googl
 ## PPS
 
 Can anybody help to explain why vendor.js is different on every rebuild
+
+```shell
+yarn run pages
+```
