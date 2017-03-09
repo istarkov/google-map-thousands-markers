@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline --config './config/webpack.config.dev.babel.js'",
     "clean": "rimraf build",
-    "build": "yarn run clean;NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --progress",
+    "build": "yarn run clean;NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --progress;cp ./_redirects ./buid/_redirects",
     "size": "NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --json | webpack-bundle-size-analyzer",
     "makelinks": "echo '' > ./docs/.nojekyll;cd ./docs;ln -s index.html about.html",
     "pages": "rimraf ./docs;BUILD=./docs NODE_ENV=production webpack --config './config/webpack.config.production.babel.js' --progress;yarn run makelinks",
