@@ -37,6 +37,7 @@ export const canvasMap = ({
             key={`${tile.x} ${tile.y}`}
             zoom={props.zoom}
             renderMarkers={renderMarkers}
+            seLatLng={tile.seLatLng}
             {...tile}
           />
         ))
@@ -179,6 +180,7 @@ export const canvasMapHOC = compose(
           if (!tiles[key]) {
             tiles[key] = {
               ...tile2LatLng({ x, y }, zoom),
+              seLatLng: { ...tile2LatLng({ x: x + 1, y: y + 1 }, zoom) },
               x,
               y,
               markers: [],
