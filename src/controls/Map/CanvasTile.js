@@ -11,8 +11,8 @@ import { latLng2Scaled } from './utils';
 const TILE_SIZE = 256;
 
 const canvasStyle = {
-  width: TILE_SIZE,
-  height: TILE_SIZE,
+  width: '100%',
+  height: '100%',
 };
 
 export const canvasTile = ({ registerChild, devicePixelRatio }) => (
